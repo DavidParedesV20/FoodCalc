@@ -14,8 +14,7 @@ function calculateCalories() {
         document.getElementById('result').innerText = resultText;
 
         history.push({
-            weight: parseFloat(weight),
-            calories: parseFloat(calories),
+
             desiredWeight: parseFloat(desiredWeight),
             desiredCalories: desiredCalories
         });
