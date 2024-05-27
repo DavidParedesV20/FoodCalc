@@ -30,7 +30,7 @@ function displayHistory() {
     const historyDiv = document.getElementById('history');
     historyDiv.innerHTML = '<h2>Historial</h2>';
     history.forEach((entry, index) => {
-        historyDiv.innerHTML += `<p>${index + 1}. Peso: ${entry.weight}g, Calorías: ${entry.calories}cal, Peso deseado: ${entry.desiredWeight}g, Calorías calculadas: ${entry.desiredCalories.toFixed(2)}cal</p>`;
+        historyDiv.innerHTML += `Calorías en total: ${entry.desiredCalories.toFixed(2)}cal</p>`;
     });
 }
 
